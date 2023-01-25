@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="author" content="Juan Fernández Rodríguez">
+	<title>Akuma no Dev</title>
+	<link rel="stylesheet" href="/css/estilos.css">
+	<link rel="icon" type="image/jpg" href="/img/favicon.png" />
+	<meta name="keywords" content="css,html,programacion,web,python,paginaweb,android,apple,samsung">
+</head>
+
+<body>
+	<!--header-->
+	<header>
+		<a class="logolink" href="/index.html"><img class="logo" src="/img/nuevologo.png" alt="Logotipo Akuma no Dev"></a>
+		<nav class="menu">
+			<a href="sobremi.html"><b>Sobre mi</b></a>
+			<a href="contacto.html"><b>Contacto</b></a>
+		</nav>
+	</header>
+	<!--FIN header-->
+	<!--FORMULARIO-->
+	<section>
+		<div class="contact_form">
+		<div class="formulario">
+			<h1>¡Contacta con nosotros!</h1>
+			<form action="mailto:juanfernandez1060@gmail.com" method="post">
+				<p>
+					<label for="nombre" class="colocar_nombre">Nombre<span class="obligatorio">*</span> </label>
+					<input type="text" name="introducir_nombre" id="nombre" placeholder="Escribe tu nombre">
+				</p>
+				<p>
+					<label for="email" class="colocar_email">Email<span class="obligatorio">*</span></label>
+					<input type="email" name="introducir_email" id="email" placeholder="Escribe tu Email">
+				</p>
+				<p>
+					<label id="telefone" class="colocar_telefono">Teléfono</label>
+					<input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+				</p>
+				<p>
+					<label id="asunto" class="colocar_asunto">Asunto<span class="obligatorio">*</span></label>
+					<input type="text" name="introducir_asunto" id="assunto" placeholder="Escribe un asunto">
+				</p>
+				<p>
+					<label for="mensaje" class="colocar_mensaje">Mensaje<span class="obligatorio">*</span></label>
+					<textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" placeholder="Deja aquí tu comentario..."></textarea>
+				</p>
+				<button type="submit" name="enviar_formulario" id="enviar"><b>Enviar</b></button>
+				<p class="aviso"><span class="obligatorio"> * </span>los campos son obligatorios.</p>
+			</form>
+		</div>
+	</div>
+	</section>
+	<!--FIN FORMULARIO-->
+	<!--barra lateral-->
+	<aside>
+		<div class="barra-social">
+			<a href="https://www.instagram.com/juanfdezzzz/" target="_blank" title="Isotipo Instagram" class="socialicono"></a>
+			<a href="https://twitter.com/juanfdezzzz" target="_blank" title="Isotipo Twitter" class="socialicono"></a>
+			<a href="https://www.facebook.com/profile.php?id=100076764807387" target="_blank" title="Isotipo Facebook" class="socialicono"></a>
+			<a href="https://www.linkedin.com/in/juan-fernandez-rodriguez-687240177/" target="_blank" title="Isotipo Linkedin" class="socialicono"></a>
+		</div>
+	</aside>
+	<!--fin barra lateral-->
+	<!--Empieza el footer-->
+	<footer>
+		<h1 class="logofooter"><b>悪<br />魔</b></h1>
+		<div class="iconoscontainer">
+			<a href="https://www.instagram.com/juanfdezzzz/" target="_blank" title="Isotipo Instagram" class="socialicono"></a>
+			<a href="https://twitter.com/juanfdezzzz" target="_blank" title="Isotipo Twitter" class="socialicono"></a>
+			<a href="https://www.facebook.com/profile.php?id=100076764807387" target="_blank" title="Isotipo Facebook" class="socialicono"></a>
+			<a href="https://www.linkedin.com/in/juan-fernandez-rodriguez-687240177/" target="_blank" title="Isotipo Linkedin" class="socialicono"></a>
+		</div>
+		<ul class="menu-footer-container">
+			<li class="menuitems"><a href="sobremi.html">Sobre mí</a></li>
+			<li class="menuitems"><a href="contacto.html">Contacto</a></li>
+			<li class="menuitems"><a href="galeria.html">Galería</a></li>
+		</ul>
+	</footer>
+	<!--Termina el footer-->
+</body>
+
+</html>
